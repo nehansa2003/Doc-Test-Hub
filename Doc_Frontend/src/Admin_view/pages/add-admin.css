@@ -1,0 +1,56 @@
+.add-staff-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f5fdf6;
+  border: 2px solid #cce3d0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 100, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.add-staff-form h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.add-staff-form input[type="text"],
+.add-staff-form input[type="password"],
+.add-staff-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #a8bfa3;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.add-staff-form input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.add-staff-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-staff-form button:hover {
+  background-color: #388e3c;
+}
+
+.add-staff-form p {
+  margin-top: 15px;
+  text-align: center;
+  color: #333333;
+}

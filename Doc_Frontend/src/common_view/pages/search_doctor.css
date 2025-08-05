@@ -1,0 +1,144 @@
+.search-doctors-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9f8;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.suggestion-box {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 10;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestion-box li {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+suggestion-box li:hover {
+  background-color: #e0f2f1;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2e7d32;
+}
+
+.results-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+suggestion-box li:hover {
+  background-color: #e0f2f1;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2e7d32;
+}
+
+.results-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+.suggestion-box li:hover {
+  background-color: #e0f2f1;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2e7d32;
+}
+
+.results-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.result-item {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border: 1px solid #c8e6c9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.no-results {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-left: 5px solid #8e8e8e;
+  border-radius: 5px;
+}

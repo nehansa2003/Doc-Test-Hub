@@ -1,0 +1,91 @@
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8ff;
+    padding:5px 40px;
+    color:rgb(17, 147, 138);
+    width:113.65%;
+}
+.navbar-left{
+    display:flexbox ;
+    align-items: center;
+    gap:15px;
+}
+.logo{
+    width:90px;
+    height:80px;
+}
+.description{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar-links{
+    list-style: none;
+    display:flex;
+    gap:50px;
+}
+.navbar-links li a{
+    color:rgb(17, 16, 16);
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar-links li a:hover{
+    background-color: rgb(10, 153, 105);
+}
+.dashboard-icon{
+    font-size:36px;
+}
+.menu-button{
+    color: black;
+} */
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color:black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sidebar overlay styling */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; 
+  height: 100%;
+  z-index: 3;
+ 
+}

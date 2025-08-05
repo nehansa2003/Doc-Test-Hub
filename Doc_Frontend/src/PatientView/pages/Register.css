@@ -1,0 +1,52 @@
+.Register-container{
+   margin-left: 20%;
+   margin-right: 30%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   padding:3%;
+   background-color: rgb(246, 251, 250);
+   border-radius: 3%;
+   border-color: black;
+} 
+.Register-part{
+   max-height: auto;
+   background-image: url('/Doc_5.webp');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:-800px,0;
+   width:100vw;
+   
+}
+.Register-form{
+    padding-top: 0px;
+}
+.blanks{
+    column-rule-color: white;
+    align-content: center;
+    margin-top: 0;
+    padding-right: 55%;
+    height: 35px;
+}
+.Register-container h2{
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Register-container h5{
+    color: black;
+    margin: 5px;
+    padding-top: 0;
+    padding-bottom:0;
+    font-size: 15px;
+}
+.Register-container button{
+    margin-top: 10px;
+}
+.Register-container h4{
+    color: black;
+    margin: 5px;
+    padding-top: 0;
+    padding-bottom:0;
+    font-size: 15px;
+}

@@ -1,0 +1,52 @@
+.login-container{
+   margin-left: 20%;
+   margin-right: 45%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   padding:3%;
+   background-color: rgb(10, 168, 118);
+   border-radius: 3%;
+   border-color: black;
+} 
+.login_part{
+   max-height: auto;
+   background-image: url('/Doc_5.webp');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:-87px,0;
+   width:100vw;
+   
+}
+.login_form{
+    padding-top: 0px;
+}
+.blanks{
+    column-rule-color: white;
+    align-content: center;
+    margin-top: 0;
+    padding-right: 45%;
+    height: 35px;
+}
+.login-container h2{
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.login-container h5{
+    color: black;
+    margin: 5px;
+    padding-top: 0;
+    padding-bottom:0;
+    font-size: 15px;
+}
+.login-container button{
+    margin-top: 10px;
+}
+.login-container h4{
+    color: black;
+    margin: 5px;
+    padding-top: 0;
+    padding-bottom:0;
+    font-size: 15px;
+}
